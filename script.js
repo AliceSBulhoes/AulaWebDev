@@ -50,3 +50,11 @@ console.log(texto2.lastIndexOf("de"))
 
 let texto3 = "precisa tirar nota boa"
 console.log(texto3.slice(3,7))
+
+//Concatenação
+
+let nome1 = "Fiap"
+console.log("O Jubikeu é aluno na "+ nome1)
+
+let nome2 = "São Paulo"
+console.log("O melhor time do mundo é "+ nome2)
