@@ -51,6 +51,7 @@ console.log(texto2.lastIndexOf("de"))
 let texto3 = "precisa tirar nota boa"
 console.log(texto3.slice(3,7))
 
+
 //Concatenação
 
 let nome1 = "Fiap"
@@ -58,3 +59,30 @@ console.log("O Jubikeu é aluno na "+ nome1)
 
 let nome2 = "São Paulo"
 console.log("O melhor time do mundo é "+ nome2)
+
+
+//Estrutura condicional
+
+//If
+let valo = 27
+let valo2 = 8
+if(valo>valo2){
+    console.log("Valor é maior");
+}else{
+    console.log("Valor é menor");
+};
+
+let idade = 14
+
+if(idade == 18){
+    document.write("Você já pode beber!")
+}else if(idade<=17){
+    document.write("Pfv não crie um RG falso para beber, ainda falta um tempo")
+}else{
+    document.write("Porque está pensando em beber? Pare com esses pensamentos idiota criança!")
+}
+
+//Operador ternario
+
+let pessoa = idade >=18 ? "Adulto":"Menor de Idade"
+document.write(pessoa)
